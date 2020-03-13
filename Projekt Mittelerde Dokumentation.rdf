@@ -1,0 +1,184 @@
+<rdf:RDF   
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:dcterms="http://purl.org/dc/terms/" 
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:place="https://d-nb.info/standards/elementset/gnd#FictivePlace"
+    xmlns:ns0="https://d-nb.info/standards/elementset/gnd#"
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:ex="http://example.org/stuff/1.0/"
+    xmlns:isbd="http://iflastandards.info/ns/isbd/elements/P1053">
+ 
+
+<!--Beschreibung Urheber des Datensatz--> 
+<rdf:Description rdf:about="https://orcid.org/0000-0003-1519-7427">
+         <ex:prop rdf:ID="TM">Toni Matzdorf</ex:prop>
+</rdf:Description>
+    
+<!--Beschreibung des Datensets-->
+    
+<!--Beschreibung der Dateien--> 
+ <rdf:Description>
+     <dcterms:titel>Charakterbezogene Einheiten aus Mittelerde:</dcterms:titel>
+        <dcterms:creator rdfs:ID="TM"></dcterms:creator>
+         <dcterms:format>CSV</dcterms:format>
+         <dcterms:codierung>UTF-8</dcterms:codierung>
+          <isbd:P1053>606</isbd:P1053>
+</rdf:Description>
+    
+<rdf:Description>
+    <dcterms:titel>Ortsbezogene Einheiten aus Mittelerde</dcterms:titel>
+        <dcterms:creator rdfs:ID="TM"></dcterms:creator>
+        <dcterms:format>CSV</dcterms:format>
+        <dcterms:codierung>UTF-8</dcterms:codierung>
+        <isbd:P1053>916</isbd:P1053>
+</rdf:Description>
+
+<rdf:Description>
+    <dcterms:titel>Digitalisierte Landkarte Mittelerde</dcterms:titel>
+        <dcterms:creator rdfs:ID="TM"></dcterms:creator>
+        <dcterms:format>jpg</dcterms:format>
+        <dcterms:format>tif</dcterms:format>
+</rdf:Description>
+    
+ <rdf:Description>
+        <dcterms:titel>Ort-Charakter Visualisierung</dcterms:titel>
+        <dcterms:creator rdfs:ID="TM"></dcterms:creator>
+        <dcterms:format>jpg</dcterms:format>
+</rdf:Description>
+    
+<rdf:Description>
+        <dcterms:titel>Projekt Mittelerde (RDF)</dcterms:titel>
+        <dcterms:creator rdfs:ID="TM"></dcterms:creator>
+        <dcterms:format>RDF</dcterms:format>
+        <dcterms:codierung>UTF-8</dcterms:codierung>
+</rdf:Description>
+
+<rdf:Description>
+        <dcterms:titel>Datendokumentation Projekt Mittelerde</dcterms:titel>
+        <dcterms:creator rdfs:ID="TM"></dcterms:creator>
+        <dcterms:format>PDF</dcterms:format>
+        <dcterms:codierung>UTF-8</dcterms:codierung>
+        <isbd:P1053>35</isbd:P1053>
+</rdf:Description>
+    
+<!--Ende Beschreibung der Dateien--> 
+    
+ <!--Beschreibung der Büchern-->  
+ <bibo:Document rdf:about="https://d-nb.info/1038290821">
+      <dcterms:titel>Der Herr der Ringe</dcterms:titel>
+       <dcterms:autor>J.R.R. Tolkien</dcterms:autor>
+      <dcterms:Übersetzer>Carroux, Margaret</dcterms:Übersetzer>
+      <dcterms:ausgabe>E-Book</dcterms:ausgabe>
+      <dcterms:ausgabe>txt</dcterms:ausgabe>
+      <dcterms:Jahr>2010</dcterms:Jahr>
+      <bibo:Verlag>Klett-Cota</bibo:Verlag>
+ </bibo:Document>
+    
+ <bibo:Document rdf:about="https://d-nb.info/1038290805">
+         <dcterms:titel>Der Hobbit</dcterms:titel>
+        <dcterms:autor>Tolkien, J. R. R.</dcterms:autor>
+        <dcterms:Übersetzer>Wolfgang Krege</dcterms:Übersetzer>
+        <dcterms:ausgabe>E-Book</dcterms:ausgabe>
+        <dcterms:ausgabe>txt</dcterms:ausgabe>
+        <dcterms:Jahr>2012</dcterms:Jahr>
+        <bibo:isbn13>9783608101386</bibo:isbn13>
+        <bibo:Verlag>Klett-Cota</bibo:Verlag>
+ </bibo:Document>
+
+<bibo:Document rdf:about="https://d-nb.info/103829083X">
+        <dcterms:titel>Slimarillion </dcterms:titel>
+        <dcterms:autor>Tolkien, J. R. R.</dcterms:autor>
+        <dcterms:herausgeber>Christopher Tolkien von</dcterms:herausgeber>
+        <dcterms:übersetzer>Wolfgang Krege</dcterms:übersetzer>
+        <dcterms:ausgabe>E-Book</dcterms:ausgabe>
+        <dcterms:ausgabe>txt</dcterms:ausgabe>
+        <dcterms:jahr>2010</dcterms:jahr>
+        <bibo:isbn13>9783608101393</bibo:isbn13>
+        <bibo:Verlag>Klett-Cota</bibo:Verlag>
+ </bibo:Document>
+    
+<!--Ende Beschreibung des Datensets--> 
+    
+<!-- Beschreibung von Fiktiver Figur--> 
+    
+    <foaf:Person rdf:about="https://www.wikidata.org/wiki/Q177499">
+        <ex:prop rdf:ID="GF">Gandalf</ex:prop>
+        <foaf:name>Gandalf</foaf:name>
+        <foaf:firstname>Mithrandir</foaf:firstname>
+        <foaf:secondname>Olórin</foaf:secondname>
+        <foaf:thirddname>Incánus </foaf:thirddname>
+        <foaf:fourthname>Láthspel</foaf:fourthname>
+    </foaf:Person>
+    
+    <foaf:Person rdf:about="https://www.wikidata.org/wiki/Q177329">
+        <ex:prop rdf:ID="GF">FB</ex:prop>
+        <foaf:name>Frodo, Beutlin</foaf:name>
+    </foaf:Person>
+ 
+<!-- Ende Beschreibung von Fiktiver Figur--> 
+
+<!-- Beschreibung von Fiktiven Orten--> 
+    
+<rdf:Description rdf:about="https://d-nb.info/gnd/4739415-8">
+      <ex:prop rdf:ID="ME">Mittelerde</ex:prop>
+     <dbo:placename>Middle-earth (Motiv) </dbo:placename>
+     <dbo:informationName>Middle earth</dbo:informationName>
+     <dbo:informationName>Mittelerde</dbo:informationName>
+     <dbo:informationName>Mittelerde</dbo:informationName>
+     <dbo:informationName>Middle-earth</dbo:informationName>
+     
+</rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q218728">
+     <dbo:placename>Auenland</dbo:placename>
+     <dbo:informationName>The Shire</dbo:informationName>
+     <dbo:areaLand rdf:ID="ME"></dbo:areaLand>
+     <ex:prop rdf:ID="GF">Gandalf</ex:prop>
+</rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q213586">
+        <dbo:placename>Gondor</dbo:placename>
+        <dbo:areaLand rdf:ID="ME"></dbo:areaLand>
+        <ex:prop rdf:ID="GF">Gandalf</ex:prop>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q308657">
+        <dbo:placename>Minas Tirith</dbo:placename>
+        <dbo:informationName>Minas Anor</dbo:informationName>
+        <dbo:informationName>Rath Dinen</dbo:informationName>
+        <dbo:informationName>Minas Anor</dbo:informationName>
+        <dbo:informationName>Rath Dínen</dbo:informationName>
+        <dbo:areaLand rdf:ID="ME"></dbo:areaLand>
+        <ex:prop rdf:ID="GF">Gandalf</ex:prop>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q218728">
+        <dbo:placename>Auenland</dbo:placename>
+        <dbo:informationName>The Shire</dbo:informationName>
+        <dbo:areaLand rdf:ID="ME"></dbo:areaLand>
+        <dbo:areaLand rdf:ID="ME"></dbo:areaLand>
+        <ex:prop rdf:ID="FB">Frodo, Beutlin</ex:prop>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q213586">
+        <dbo:placename>Gondor</dbo:placename>
+        <dbo:areaLand rdf:ID="ME"></dbo:areaLand>
+        <dbo:areaLand rdf:ID="ME"></dbo:areaLand>
+        <ex:prop rdf:ID="FB">Frodo, Beutlin</ex:prop>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q308657">
+        <dbo:placename>Minas Tirith</dbo:placename>
+        <dbo:informationName>Minas Anor</dbo:informationName>
+        <dbo:informationName>Rath Dinen</dbo:informationName>
+        <dbo:informationName>Minas Anor</dbo:informationName>
+        <dbo:informationName>Rath Dínen</dbo:informationName>
+        <dbo:areaLand rdf:ID="ME"></dbo:areaLand>
+        <dbo:areaLand rdf:ID="ME"></dbo:areaLand>
+        <ex:prop rdf:ID="FB">Frodo, Beutlin</ex:prop>
+    </rdf:Description>
+<!-- Ende Beschreibung von Fiktiven Orten-->    
+
+</rdf:RDF>
